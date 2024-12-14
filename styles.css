@@ -1,0 +1,73 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F1C40F; /* Festive yellow background */
+    color: #2C3E50; /* Dark blue text color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  /* Countdown Container */
+  .countdown-container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    max-width: 600px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    font-family: Verdana, sans-serif;
+    font-weight: bold;
+    color: #2C3E50;
+  }
+  
+  p {
+    font-size: 20px;
+    color: #2C3E50;
+    margin-bottom: 20px;
+  }
+  
+  /* Countdown Timer */
+  .countdown-timer {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+  }
+  
+  /* Time Section */
+  .time-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .time-number {
+    font-size: 40px;
+    font-family: Verdana, sans-serif;
+    font-weight: bold;
+    color: #2C3E50;
+  }
+  
+  .time-label {
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    color: #2C3E50;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .countdown-timer {
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+  
